@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.zajecia2.TestyOstateczneAutoService" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-01-15T11:11:31" hostname="KB1" time="0.206">
+  <properties/>
+  <testcase name="testDeleteAutoById_Sukces()" classname="com.example.zajecia2.TestyOstateczneAutoService" time="0.11"/>
+  <testcase name="testAddAuto()" classname="com.example.zajecia2.TestyOstateczneAutoService" time="0.015"/>
+  <testcase name="testUpdate_Blad()" classname="com.example.zajecia2.TestyOstateczneAutoService" time="0.026"/>
+  <testcase name="testExistsByIdFalse()" classname="com.example.zajecia2.TestyOstateczneAutoService" time="0.005"/>
+  <testcase name="testDeleteAutoById_Blad()" classname="com.example.zajecia2.TestyOstateczneAutoService" time="0.007"/>
+  <testcase name="testUpdate_Sukces()" classname="com.example.zajecia2.TestyOstateczneAutoService" time="0.013"/>
+  <testcase name="testExistsByIdTrue()" classname="com.example.zajecia2.TestyOstateczneAutoService" time="0.005"/>
+  <testcase name="testGetAll()" classname="com.example.zajecia2.TestyOstateczneAutoService" time="0.003"/>
+  <system-out><![CDATA[Nie mog? zaaktualizowac takiego auta, poniewa? ono nie istnieje!
+Nie mog? usun?? takiego auta, poniewa? ono nie istnieje!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
