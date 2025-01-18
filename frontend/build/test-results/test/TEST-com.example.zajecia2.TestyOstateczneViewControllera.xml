@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.zajecia2.TestyOstateczneViewControllera" tests="9" skipped="0" failures="0" errors="0" timestamp="2025-01-15T11:26:11" hostname="KB1" time="3.413">
+  <properties/>
+  <testcase name="testDeleteCar_Get()" classname="com.example.zajecia2.TestyOstateczneViewControllera" time="3.147"/>
+  <testcase name="testDeleteCar_Post_Blad()" classname="com.example.zajecia2.TestyOstateczneViewControllera" time="0.063"/>
+  <testcase name="testDeleteCar_Post_Sukces()" classname="com.example.zajecia2.TestyOstateczneViewControllera" time="0.037"/>
+  <testcase name="testDisplayAllCars()" classname="com.example.zajecia2.TestyOstateczneViewControllera" time="0.031"/>
+  <testcase name="testUpdateCar_Blad()" classname="com.example.zajecia2.TestyOstateczneViewControllera" time="0.028"/>
+  <testcase name="testSendForm_Post()" classname="com.example.zajecia2.TestyOstateczneViewControllera" time="0.058"/>
+  <testcase name="testAddAuto_Get()" classname="com.example.zajecia2.TestyOstateczneViewControllera" time="0.01"/>
+  <testcase name="testUpdateCar_Post_Sukces()" classname="com.example.zajecia2.TestyOstateczneViewControllera" time="0.015"/>
+  <testcase name="testUpdateCar_Get()" classname="com.example.zajecia2.TestyOstateczneViewControllera" time="0.011"/>
+  <system-out><![CDATA[Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
+12:26:14.636 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+12:26:14.639 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+12:26:14.645 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 5 ms
+12:26:14.854 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+12:26:14.855 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+12:26:14.855 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+12:26:14.918 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+12:26:14.918 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+12:26:14.918 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+12:26:14.954 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+12:26:14.955 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+12:26:14.955 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+12:26:14.970 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+12:26:14.971 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+12:26:14.971 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+12:26:14.988 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+12:26:14.989 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+12:26:14.989 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+12:26:15.017 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+12:26:15.018 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+12:26:15.018 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+12:26:15.074 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+12:26:15.075 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+12:26:15.075 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+12:26:15.086 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+12:26:15.086 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+12:26:15.086 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+12:26:15.103 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+12:26:15.103 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+12:26:15.103 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\Babsiu\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.19\154da3a65b4f4a909d3e5bdec55d1b2b4cbb6ce1\byte-buddy-agent-1.14.19.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

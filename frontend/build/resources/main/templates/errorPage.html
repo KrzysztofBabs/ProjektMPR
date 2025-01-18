@@ -1,0 +1,27 @@
+<!--<div th:if="${errorMessage}" style="color: red;">-->
+<!--    <span th:text="${errorMessage}"></span>-->
+<!--</div>-->
+
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Błąd</title>
+</head>
+<body>
+<!--<h1>${errorMessage}</h1>  &lt;!&ndash; Wyświetlenie komunikatu o błędzie &ndash;&gt;-->
+<div th:if="${errorMessage}" style="color: red;">
+    <span th:text="${errorMessage}"></span>
+</div>
+<!--<div th:if="${message}" class="alert alert-success">-->
+<!--    <p th:text="${message}"></p>-->
+<!--</div>-->
+
+<br>
+<a href="/view/all" style="text-decoration: none;">Powrót na stronę główną z listą aut</a> <!-- Link do strony głównej -->
+</body>
+</html>
+
